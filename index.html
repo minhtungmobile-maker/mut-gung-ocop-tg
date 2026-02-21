@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Mứt gừng Phúc Hậu – OCOP 3 sao Tiền Giang. Quà biếu Tết sang trọng, nguyên liệu sạch, giao hàng COD toàn quốc.">
+  <title>ĐẶC SẢN TIỀN GIANG – MỨT GỪNG OCOP CHÍNH GỐC</title>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/images/product.webp">
+  <meta name="theme-color" content="#D4AF37">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>ĐẶC SẢN TIỀN GIANG<br>MỨT GỪNG OCOP CHÍNH GỐC</h1>
+      <p>Ngon – Sạch – An Toàn – Quà Biếu Sang Trọng</p>
+      <a href="tel:090xxxxxxx" class="btn">👉 Đặt hàng ngay – Nhận hàng tận nơi</a>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <section class="product">
+    <div class="container">
+      <img src="assets/images/product.webp" alt="Mứt gừng Phúc Hậu" loading="lazy">
+      <h2>Mứt gừng Phúc Hậu – OCOP 3 sao</h2>
+      <ul>
+        <li>✅ Nguyên liệu: Gừng tươi Tiền Giang, đường thốt nốt</li>
+        <li>✅ Chứng nhận: OCOP 3 sao tỉnh Tiền Giang</li>
+        <li>✅ Đóng gói: Hộp sang trọng, sẵn sàng làm quà biếu</li>
+        <li>✅ Giao hàng: COD toàn quốc – Nhận hàng mới thanh toán</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+    <div class="container">
+      <h2>Giá bán & Ưu đãi</h2>
+      <p><strong>100.000 VNĐ / hộp (200g)</strong></p>
+      <p>🎁 <strong>Khuyến mãi: Mua 5 tặng 1</strong></p>
+      <a href="tel:090xxxxxxx" class="btn">📞 Gọi ngay để đặt hàng</a>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="proof">
+    <div class="container">
+      <p>Chị Mai (Q.1, TP.HCM) vừa đặt 6 hộp – 10 phút trước</p>
+      <p>Chú Ba (Hà Nội) mua làm quà biếu sếp – hôm qua</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Đặc sản Tiền Giang – Mứt gừng Phúc Hậu</p>
+      <p>Địa chỉ: Xã Tân Phú Đông, TP. Mỹ Tho, Tiền Giang</p>
+      <p>Hotline: 090x.xxx.xxx | Email: phuchau.ocop@gmail.com</p>
+      <p>
+        <a href="legal/privacy.html">Chính sách bảo mật</a> | 
+        <a href="legal/terms.html">Điều khoản sử dụng</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- PWA Script -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
